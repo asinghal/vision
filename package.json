@@ -1,0 +1,16 @@
+{
+  "name": "vision",
+  "description": "sample code for vision",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha -R spec ./tests/**/*.js"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "node-tesseract": "^0.2.6",
+    "opencv": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
